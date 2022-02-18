@@ -1,5 +1,9 @@
-
+src/main/webapp/package-lock.json
 src/main/resources/META-INF/resources/*
+src/main/webapp/package-lock.json
+src/main/webapp/yarn.lock
+src/main/webapp/yarn.lock
+yarn.lock
 !.gitkeep
 
 #Maven

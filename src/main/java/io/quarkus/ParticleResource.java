@@ -16,12 +16,17 @@ public class ParticleResource {
         Set <Particle> particleList = Collections.newSetFromMap(Collections.synchronizedMap(new LinkedHashMap<>()));
 
         Particle particle = new Particle();
-        particle.setName("Graviton");
+        particle.setName("Graviton2");
         particleList.add(particle);
         
         Particle particle2 = new Particle();
         particle2.setName("Pentaquark");
-        particleList.add(particle2);        
+        particleList.add(particle2);
+	for( int i = 0; i < 100; i++) {
+            Particle particle3 = new Particle();
+            particle3.setName("Pentaquark " + i);
+            particleList.add(particle3);
+        } 
         return particleList;
     }
 }

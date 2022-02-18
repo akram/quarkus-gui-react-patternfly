@@ -12,7 +12,7 @@ const Particles = ({ particles }) => {
                     </tr>
                 </thead>
                 {particles.map((particle) => (
-                    <tbody role="rowgroup">
+                    <tbody>
                         <tr role="row">
                             <td role="cell" data-label="Particle name">{particle.name}</td>
                         </tr>
